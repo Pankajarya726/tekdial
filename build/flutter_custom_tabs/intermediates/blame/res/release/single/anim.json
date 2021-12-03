@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/mac/Desktop/pankaj/git/tekdial/build/flutter_custom_tabs/intermediates/res/merged/release/anim/slide_out_left.xml",
+        "source": "/Users/mac/Desktop/software/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_custom_tabs-0.6.0/android/src/main/res/anim/slide_out_left.xml"
+    },
+    {
+        "merged": "/Users/mac/Desktop/pankaj/git/tekdial/build/flutter_custom_tabs/intermediates/res/merged/release/anim/slide_in_right.xml",
+        "source": "/Users/mac/Desktop/software/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_custom_tabs-0.6.0/android/src/main/res/anim/slide_in_right.xml"
+    }
+]

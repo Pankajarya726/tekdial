@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">103.251.143.67:2390</domain>
+        <domain includeSubdomains="true">103.251.143.67</domain>
+        <domain includeSubdomains="true">103.251.143.68</domain>
+        <domain includeSubdomains="true">timbl.nsbbpo.in</domain>
+
+    </domain-config>
+</network-security-config>
+

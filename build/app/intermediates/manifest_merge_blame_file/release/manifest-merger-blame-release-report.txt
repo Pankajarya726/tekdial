@@ -1,0 +1,110 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.tekdial"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->/Users/mac/Desktop/pankaj/git/tekdial/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/Users/mac/Desktop/pankaj/git/tekdial/android/app/src/main/AndroidManifest.xml
+10    <!--
+11         io.flutter.app.FlutterApplication is an android.app.Application that
+12         calls FlutterMain.startInitialization(this); in its onCreate method.
+13         In most cases you can leave this as-is, but you if you want to provide
+14         additional functionality it is fine to subclass or reimplement
+15         FlutterApplication and put your custom class here.
+16    -->
+17    <uses-permission android:name="android.permission.INTERNET" />
+17-->/Users/mac/Desktop/pankaj/git/tekdial/android/app/src/main/AndroidManifest.xml:8:5-67
+17-->/Users/mac/Desktop/pankaj/git/tekdial/android/app/src/main/AndroidManifest.xml:8:22-64
+18    <uses-permission android:name="android.permission.BLUETOOTH" />
+18-->/Users/mac/Desktop/pankaj/git/tekdial/android/app/src/main/AndroidManifest.xml:9:5-67
+18-->/Users/mac/Desktop/pankaj/git/tekdial/android/app/src/main/AndroidManifest.xml:9:22-65
+19    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+19-->[:connectivity] /Users/mac/Desktop/pankaj/git/tekdial/build/connectivity/intermediates/library_manifest/release/AndroidManifest.xml:7:5-79
+19-->[:connectivity] /Users/mac/Desktop/pankaj/git/tekdial/build/connectivity/intermediates/library_manifest/release/AndroidManifest.xml:7:22-76
+20    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+20-->[:connectivity] /Users/mac/Desktop/pankaj/git/tekdial/build/connectivity/intermediates/library_manifest/release/AndroidManifest.xml:8:5-76
+20-->[:connectivity] /Users/mac/Desktop/pankaj/git/tekdial/build/connectivity/intermediates/library_manifest/release/AndroidManifest.xml:8:22-73
+21
+22    <application
+22-->/Users/mac/Desktop/pankaj/git/tekdial/android/app/src/main/AndroidManifest.xml:10:5-46:19
+23        android:name="io.flutter.app.FlutterApplication"
+23-->/Users/mac/Desktop/pankaj/git/tekdial/android/app/src/main/AndroidManifest.xml:11:9-57
+24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+24-->[androidx.core:core:1.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/a528b13ac93e64cafa3d0480e2c93207/core-1.1.0/AndroidManifest.xml:24:18-86
+25        android:icon="@mipmap/app_icon"
+25-->/Users/mac/Desktop/pankaj/git/tekdial/android/app/src/main/AndroidManifest.xml:14:9-40
+26        android:label="TekDial"
+26-->/Users/mac/Desktop/pankaj/git/tekdial/android/app/src/main/AndroidManifest.xml:12:9-32
+27        android:networkSecurityConfig="@xml/network_security_config" >
+27-->/Users/mac/Desktop/pankaj/git/tekdial/android/app/src/main/AndroidManifest.xml:13:9-69
+28        <activity
+28-->/Users/mac/Desktop/pankaj/git/tekdial/android/app/src/main/AndroidManifest.xml:15:9-40:20
+29            android:name="com.tekdial.MainActivity"
+29-->/Users/mac/Desktop/pankaj/git/tekdial/android/app/src/main/AndroidManifest.xml:16:13-52
+30            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+30-->/Users/mac/Desktop/pankaj/git/tekdial/android/app/src/main/AndroidManifest.xml:20:13-163
+31            android:hardwareAccelerated="true"
+31-->/Users/mac/Desktop/pankaj/git/tekdial/android/app/src/main/AndroidManifest.xml:21:13-47
+32            android:launchMode="singleTop"
+32-->/Users/mac/Desktop/pankaj/git/tekdial/android/app/src/main/AndroidManifest.xml:17:13-43
+33            android:theme="@style/LaunchTheme"
+33-->/Users/mac/Desktop/pankaj/git/tekdial/android/app/src/main/AndroidManifest.xml:18:13-47
+34            android:windowSoftInputMode="adjustResize" >
+34-->/Users/mac/Desktop/pankaj/git/tekdial/android/app/src/main/AndroidManifest.xml:22:13-55
+35
+36            <!--
+37                 Specifies an Android theme to apply to this Activity as soon as
+38                 the Android process has started. This theme is visible to the user
+39                 while the Flutter UI initializes. After that, this theme continues
+40                 to determine the Window background behind the Flutter UI.
+41            -->
+42            <meta-data
+42-->/Users/mac/Desktop/pankaj/git/tekdial/android/app/src/main/AndroidManifest.xml:27:13-30:17
+43                android:name="io.flutter.embedding.android.NormalTheme"
+43-->/Users/mac/Desktop/pankaj/git/tekdial/android/app/src/main/AndroidManifest.xml:28:15-70
+44                android:resource="@style/NormalTheme" />
+44-->/Users/mac/Desktop/pankaj/git/tekdial/android/app/src/main/AndroidManifest.xml:29:15-52
+45            <meta-data
+45-->/Users/mac/Desktop/pankaj/git/tekdial/android/app/src/main/AndroidManifest.xml:32:13-35:17
+46                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+46-->/Users/mac/Desktop/pankaj/git/tekdial/android/app/src/main/AndroidManifest.xml:33:15-79
+47                android:resource="@drawable/launch_background" />
+47-->/Users/mac/Desktop/pankaj/git/tekdial/android/app/src/main/AndroidManifest.xml:34:15-61
+48
+49            <intent-filter>
+49-->/Users/mac/Desktop/pankaj/git/tekdial/android/app/src/main/AndroidManifest.xml:36:13-39:29
+50                <action android:name="android.intent.action.MAIN" />
+50-->/Users/mac/Desktop/pankaj/git/tekdial/android/app/src/main/AndroidManifest.xml:37:17-68
+50-->/Users/mac/Desktop/pankaj/git/tekdial/android/app/src/main/AndroidManifest.xml:37:25-66
+51
+52                <category android:name="android.intent.category.LAUNCHER" />
+52-->/Users/mac/Desktop/pankaj/git/tekdial/android/app/src/main/AndroidManifest.xml:38:17-76
+52-->/Users/mac/Desktop/pankaj/git/tekdial/android/app/src/main/AndroidManifest.xml:38:27-74
+53            </intent-filter>
+54        </activity>
+55        <!--
+56             Don't delete the meta-data below.
+57             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+58        -->
+59        <meta-data
+59-->/Users/mac/Desktop/pankaj/git/tekdial/android/app/src/main/AndroidManifest.xml:43:9-45:33
+60            android:name="flutterEmbedding"
+60-->/Users/mac/Desktop/pankaj/git/tekdial/android/app/src/main/AndroidManifest.xml:44:13-44
+61            android:value="2" />
+61-->/Users/mac/Desktop/pankaj/git/tekdial/android/app/src/main/AndroidManifest.xml:45:13-30
+62
+63        <activity
+63-->[:url_launcher] /Users/mac/Desktop/pankaj/git/tekdial/build/url_launcher/intermediates/library_manifest/release/AndroidManifest.xml:8:9-11:74
+64            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+64-->[:url_launcher] /Users/mac/Desktop/pankaj/git/tekdial/build/url_launcher/intermediates/library_manifest/release/AndroidManifest.xml:9:13-74
+65            android:exported="false"
+65-->[:url_launcher] /Users/mac/Desktop/pankaj/git/tekdial/build/url_launcher/intermediates/library_manifest/release/AndroidManifest.xml:10:13-37
+66            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+66-->[:url_launcher] /Users/mac/Desktop/pankaj/git/tekdial/build/url_launcher/intermediates/library_manifest/release/AndroidManifest.xml:11:13-71
+67    </application>
+68
+69</manifest>

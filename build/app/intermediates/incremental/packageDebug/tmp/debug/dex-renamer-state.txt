@@ -1,0 +1,4 @@
+#Tue Apr 06 17:53:08 IST 2021
+base.0=/Users/mac/Desktop/pankaj/git/tekdial/build/app/intermediates/dex/debug/mergeDexDebug/out/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
